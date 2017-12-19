@@ -97,7 +97,7 @@ namespace brut
             }
             else
             {
-                //задаем лэйблу кол-во ошибок связанных с подключением
+                //задаем лэйблу кол-во прокси
                 proxy_data_label.Text = countProxy.ToString();
             }
         }
@@ -137,7 +137,7 @@ namespace brut
             }
             else
             {
-                //задаем лэйблу кол-во ошибок связанных с подключением
+                //задаем лэйблу кол-во неавторизированных аккаунтов
                 bads_data_label.Text = countBads.ToString();
             }
         }
@@ -151,7 +151,7 @@ namespace brut
             }
             else
             {
-                //задаем лэйблу кол-во ошибок связанных с подключением
+                //выводим в dataGrid успешноавторизированный логин и пароль
                 viewSuccesfull.Rows.Add(succesfuul_login, succesfull_password);
             }
         }
